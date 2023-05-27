@@ -1,0 +1,43 @@
+.card{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 1px 2px 7px 6px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 1px 2px 7px 6px rgba(0,0,0,0.33);
+    -moz-box-shadow: 1px 2px 7px 6px rgba(0,0,0,0.33);
+    border-radius: 20px;
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.desc{
+    color: rgb(92, 12, 167);
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.cardButton{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(104, 5, 132);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+  }
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+}
